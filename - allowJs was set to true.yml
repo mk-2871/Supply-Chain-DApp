@@ -1,0 +1,7 @@
+- allowJs was set to true
+    - incremental was set to true
+    - include was updated to add '.next/types/**/*.ts'
+    - plugins was updated to add { name: 'next' }
+    - exclude was set to ['node_modules']
+    - esModuleInterop was set to true (requirement for SWC / babel)
+    - jsx was set to preserve (next.js implements its own optimized jsx transform)
